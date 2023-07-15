@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website- Easy to know about me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c5b0532d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>N</span>ivedita.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi,I'm <span>Nivedita</span><br>Sharma From Bhopal</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="sub">About Me</h1>
+                    <br>
+                    <p> An enthusiast coder and Web Developer who's looking forward to acquiring new skills and giving back to the team. Currently pursuing B.Tech from Barkatullah University, Bhopal. My branch is Information Technology. I have a leadership quality which always bought me with the opportunity to lead a teams. In college I am a class representative and also I have coordinated college events for which I got the appreciation certificate. In my free time, I love  to watch movies, listen to music and play games. Have a knack for travelling to new places and exploring new cultures and cuisines.I love spending time with friends and plan a trip. <br> Eagerly waiting to explore the world even further!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Designing HTML Interfaces</li>
+                            <li><span>Css</span><br>Designing CSS Interfaces</li>
+                            <li><span>Javascript</span><br>Designing Javascript Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Working as an intern at SIP.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span><br>Fame Gurukul Academy, Maksi</li>
+                            <li><span>College</span><br>Barkatullah University Institute Of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML Uses</h2>
+                    <p>In this article, we take a look at web design, including what HTML designers do and the common
+                        web-designing elements they work with and use.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS Uses</h2>
+                    <p>In this article, we take a look at web design, including what CSS designers do and the common
+                        web-designing elements they work with and use.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>Javascript Uses</h2>
+                    <p>In this article, we take a look at web design, including what Javascript designers do and the
+                        common web-designing elements they work with and use.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------work-->
+    <div id="work">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="works">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="lap1.png" alt="">
+                        <div class="layer">
+                            <h3>Responsive Blog Website</h3>
+                            <p>This Website is an interactive website, it contains regularly updated content.
+                            </p>
+                            <a href="https://github.com/NiveditaSharma828/Blog-Website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="lap2.png" alt="">
+                        <div class="layer">
+                            <h3>Resume Builder</h3>
+                            <p>This Website is used for building resume, anyone can build there resume using this website.
+                            </p>
+                            <a href="https://github.com/NiveditaSharma828/Resume-Generator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="lap3.png" alt="">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>This can be used to do any type of calculation, can also be used for big calculations.
+                            </p>
+                            <a href="https://github.com/NiveditaSharma828/Calculator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sharmanivi828@gmail.com</p>
+                   
+                    <div class="social-icons">
+                        <a href=" https://instagram.com/_sharma_nivedita__.11?igshid=NTdlMDg3MTY="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nivedita-sharma-026893249"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Nivedita. Made with <i class="fa-solid fa-heart-pulse"></i> by Practice</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const work = document.getElementByclass(".work");
+        const btnn = document.getElementByclass(".btn");
+        let visibleFiles = 3;
+
+        // initially hide all files except the first 3
+        for (let i = visibleFiles; i < work.children.length; i++) {
+            work.children[i].style.display = "none";
+        }
+
+        // show 3 more files when the "See more" button is clicked
+        btnn.addEventListener("click", () => {
+            for (let i = visibleFiles; i < visibleFiles + 3; i++) {
+                if (i >= work.children.length) {
+                    // if there are no more files to show, hide the "See more" button
+                    btnn.style.display = "none";
+                    break;
+                }
+               work.children[i].style.display = "block";
+            }
+            visibleFiles += 3;
+        })
+
+    </script>
+     
+</body>
+
+</html>
